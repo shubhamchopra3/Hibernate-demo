@@ -12,5 +12,6 @@
 
 * Hibernate-7 One to Many mapping. Every Alien is having more than 1 vechile. A seperate table is created with 2 columns mapping alien id with vechile id.
 
-* HIBERNATE-8 TwoWheeler and FourWheeler class extends Vehicle class. @Entity is defined on all 3 class still only 1 table is created in databse called Vechile table. This is Single table strategy in inheritance.Screenshot of the table created is stored in the folder itself
+* HIBERNATE-8 TwoWheeler and FourWheeler class extends Vehicle class. @Entity is defined on all 3 class still only 1 table is created in databse called Vechile table. This is Single table strategy in inheritance.Screenshot of the table created is stored in the folder itself.
+dType column tells the class name.
 
