@@ -1,5 +1,7 @@
 # Hibernate-demo
 
+### This github repo purpose is only for my self learning only
+
 * Hibernate-1 - Simple Hibernate Project for learning configurations
 
 * Hibernate-2 - For learning how to add another class Object as a column in a database.Here we will use @Embeddable annotation
