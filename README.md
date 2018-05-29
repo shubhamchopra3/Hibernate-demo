@@ -17,3 +17,4 @@
 * HIBERNATE-8 TwoWheeler and FourWheeler class extends Vehicle class. @Entity is defined on all 3 class still only 1 table is created in databse called Vechile table. This is Single table strategy in inheritance.Screenshot of the table created is stored in the folder itself.
 dType column tells the class name.This is the default strategy hibernate uses.
 
+* Hibernate9 Here @Inheritance(strategy=InheritanceType.TABLE_PER_CLASS) is used on top of parent class. Different tables are created for each class since it is Table_per_class strategy. Child classes have thier columns as well as columns of parent.Images of database created are stored.
