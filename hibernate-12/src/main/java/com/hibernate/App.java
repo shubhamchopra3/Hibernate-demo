@@ -38,7 +38,7 @@ public class App {
 	//only last modified value will be saved , hibernate doesnt run many update queries it only runs for last updated state. 
 	
 
-		
+	//session.get is also gives persistant object	
 			
 		
 
