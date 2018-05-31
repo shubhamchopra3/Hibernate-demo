@@ -22,3 +22,5 @@ dType column tells the class name.This is the default strategy hibernate uses.
 * Hibernate-10 HERE @Inheritance(strategy=InheritanceType.JOINED) is used ,Columns of the parent table doesnt go into the child table as in the case of table_per_class strategy ,if we want the complete child class entity table we need to use sql join statement with the parent table.Child table only contains properties specific to the child class. Screenshot of the table created is stored in the folder itself.
 
 * Hibernate-11 CRUD operations using hibernate
+
+* hIBERNATE-12 Understanding Transient, Persistent and Detached Objects
