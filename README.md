@@ -20,3 +20,5 @@ dType column tells the class name.This is the default strategy hibernate uses.
 * Hibernate9 Here @Inheritance(strategy=InheritanceType.TABLE_PER_CLASS) is used on top of parent class. Different tables are created for each class since it is Table_per_class strategy. Child classes have thier columns as well as columns of parent.Images of database created are stored.
 
 * Hibernate-10 HERE @Inheritance(strategy=InheritanceType.JOINED) is used ,Columns of the parent table doesnt go into the child table as in the case of table_per_class strategy ,if we want the complete child class entity table we need to use sql join statement with the parent table.Child table only contains properties specific to the child class. Screenshot of the table created is stored in the folder itself.
+
+* Hibernate-11 CRUD operations using hibernate
