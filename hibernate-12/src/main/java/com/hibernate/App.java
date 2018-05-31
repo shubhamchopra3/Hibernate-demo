@@ -28,7 +28,9 @@ public class App {
 		/*once an object is saved it is in persistant state*/
 	session.save(a);  
 	//any changes made to the object in the persistant state will be automatically like below
-	
+	//session.delete converts persistant state to transient state
+		
+		
 	a.setName("divya");
 	//this will be automatically updated without save this is because our object is in persistnat state and hibernate 
  //tracks any changes made to the object 
