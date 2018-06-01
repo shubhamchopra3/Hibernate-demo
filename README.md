@@ -23,4 +23,6 @@ dType column tells the class name.This is the default strategy hibernate uses.
 
 * Hibernate-11 CRUD operations using hibernate
 
-* hIBERNATE-12 Understanding Transient, Persistent and Detached Objects
+* HIBERNATE-12 Understanding Transient, Persistent and Detached Objects
+
+* Hibernate-13 Hibernate Query language 
