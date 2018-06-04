@@ -21,6 +21,8 @@ public class App {
 		
 		
 		Query query = session.createQuery("from ALIEN_DETAILS");  //this is entity name and this will return a list
+		query.setFirstResult(0);   //starting index of rows
+		query.setMaxResults(5);    //number of rows to be fetched , so above two lines will fetch first 5 rows of the table
 		
 		List<Alien> aliens = query.getResultList();   
 		System.out.print("size is : ");
