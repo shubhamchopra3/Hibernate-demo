@@ -1,0 +1,6 @@
+com\hibernate\Address.class
+com\hibernate\TwoWheeler.class
+com\hibernate\Vehicle.class
+com\hibernate\App.class
+com\hibernate\FourWheeler.class
+com\hibernate\Alien.class
