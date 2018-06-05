@@ -18,7 +18,7 @@ public class App {
 
 		Transaction tx = session.beginTransaction();
 
-		Alien a = session.get(Alien.class, 1);
+		Alien a = session.get(Alien.class, 1);  //seelct query run for first time
 
 		tx.commit();
 
@@ -28,6 +28,7 @@ public class App {
 
 		session2.beginTransaction();
 
+		//no select query executed here 
 		Alien a1 = session2.get(Alien.class, 1);  //select query will be run just once even though session was closed before
 		//because we have data in second level cache , so even if session is closed no need to hit the database again for getting data
 		System.out.println(a1.getName());
